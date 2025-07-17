@@ -45,12 +45,12 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="text-data-green" size={20} />,
-      url: 'https://linkedin.com/in/elias-datos'
+      url: 'https://www.linkedin.com/in/elias-carmin/'
     },
     {
       name: 'GitHub',
       icon: <Github className="text-data-green" size={20} />,
-      url: 'https://github.com/elias-datos'
+      url: 'https://github.com/EliasCarmin'
     },
     {
       name: 'Twitter',
@@ -62,15 +62,15 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: <Mail className="text-data-green" size={16} />,
-      text: 'elias@datosanalytics.com'
+      text: 'eliasjesuscarmin@gmail.com'
     },
     {
       icon: <Phone className="text-data-green" size={16} />,
-      text: '+54 9 11 1234-5678'
+      text: '+51 956224010'
     },
     {
       icon: <MapPin className="text-data-green" size={16} />,
-      text: 'Buenos Aires, Argentina'
+      text: 'Lima Metropolitana, Perú'
     }
   ]
 
@@ -209,7 +209,7 @@ const Footer = () => {
       {/* Made with Love */}
       <div className="bg-data-gray py-4 text-center">
         <p className="text-gray-400 text-sm">
-          Hecho con <Heart className="inline text-red-500" size={14} /> por Elias usando React y TailwindCSS
+          Hecho con <Heart className="inline text-red-500" size={14} /> por Elias usando React y TailwindCSS (Cursor IA)
         </p>
       </div>
     </footer>

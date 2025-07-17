@@ -335,9 +335,9 @@ const Contact = () => {
               <button className="bg-data-green text-data-dark px-8 py-3 rounded-lg hover:bg-neon-green transition-colors font-medium">
                 Agendar Llamada
               </button>
-              <button className="border border-data-green text-data-green px-8 py-3 rounded-lg hover:bg-data-green hover:text-data-dark transition-colors font-medium">
+              <a href="/CV_Analista_Datos_Elías_Carmin.pdf" download className="border border-data-green text-data-green px-8 py-3 rounded-lg hover:bg-data-green hover:text-data-dark transition-colors font-medium text-center">
                 Descargar CV
-              </button>
+              </a>
             </div>
           </div>
         </div>

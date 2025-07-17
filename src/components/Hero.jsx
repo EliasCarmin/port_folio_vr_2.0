@@ -57,11 +57,11 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="flex items-center justify-center space-x-2 bg-data-green text-data-dark px-6 py-3 rounded-lg hover:bg-neon-green transition-all duration-300 font-medium group">
+              <a href="/CV_Analista_Datos_Elías_Carmin.pdf" download className="flex items-center justify-center space-x-2 bg-data-green text-data-dark px-6 py-3 rounded-lg hover:bg-neon-green transition-all duration-300 font-medium group">
                 <Download size={20} />
                 <span>Descargar CV</span>
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button 
                 onClick={scrollToAbout}
                 className="flex items-center justify-center space-x-2 border border-data-green text-data-green px-6 py-3 rounded-lg hover:bg-data-green hover:text-data-dark transition-all duration-300 font-medium"

@@ -55,10 +55,10 @@ const Header = () => {
                 {item.name}
               </button>
             ))}
-            <button className="flex items-center space-x-2 bg-data-green text-data-dark px-4 py-2 rounded-lg hover:bg-neon-green transition-colors duration-300 font-medium">
+            <a href="/CV_Analista_Datos_Elías_Carmin.pdf" download className="flex items-center space-x-2 bg-data-green text-data-dark px-4 py-2 rounded-lg hover:bg-neon-green transition-colors duration-300 font-medium">
               <Download size={16} />
               <span>CV</span>
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -83,10 +83,10 @@ const Header = () => {
                   {item.name}
                 </button>
               ))}
-              <button className="flex items-center space-x-2 bg-data-green text-data-dark px-4 py-2 rounded-lg hover:bg-neon-green transition-colors duration-300 font-medium w-fit">
+              <a href="/CV_Analista_Datos_Elías_Carmin.pdf" download className="flex items-center space-x-2 bg-data-green text-data-dark px-4 py-2 rounded-lg hover:bg-neon-green transition-colors duration-300 font-medium w-fit">
                 <Download size={16} />
                 <span>Descargar CV</span>
-              </button>
+              </a>
             </nav>
           </div>
         )}
