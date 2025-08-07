@@ -4,30 +4,24 @@ import { Award, Users, Clock, Target, CheckCircle } from 'lucide-react'
 const About = () => {
   const experiences = [
     {
-      year: '2023 - Presente',
-      title: 'Analista de Datos Senior',
+      year: '2024 - Presente',
+      title: 'Analista de Datos & Desarrollador de Soluciones Internas',
       company: 'Empresa Tecnológica',
-      description: 'Desarrollo de dashboards interactivos y análisis predictivo para optimización de procesos empresariales.'
+      description: 'Analista de Datos y Desarrollador de Soluciones Internas, con enfoque en automatización, análisis, visualización y desarrollo de herramientas digitales para optimizar procesos empresariales.'
     },
     {
-      year: '2022 - 2023',
-      title: 'Consultor de Business Intelligence',
-      company: 'Consultora de Datos',
-      description: 'Implementación de soluciones de BI y capacitación de equipos en herramientas de análisis de datos.'
+      year: '2023 - 2024',
+      title: 'Practicante de Gestión de Proyectos',
+      company: 'Agencia Embudo Consigue Ventas',
+      description: 'Colaboración en la planificación de proyectos de software. Apoyo en el levantamiento de requerimientos funcionales y no funcionales.'
     },
-    {
-      year: '2021 - 2022',
-      title: 'Analista de Datos Junior',
-      company: 'Startup de E-commerce',
-      description: 'Análisis de comportamiento de usuarios y optimización de conversiones mediante análisis de datos.'
-    }
   ]
 
   const achievements = [
     {
       icon: <Award className="text-data-green" size={24} />,
       title: 'Certificaciones',
-      description: 'Power BI, Tableau, Python, SQL'
+      description: 'Power BI, GCP, Python, SQL'
     },
     {
       icon: <Users className="text-data-green" size={24} />,
@@ -37,7 +31,7 @@ const About = () => {
     {
       icon: <Clock className="text-data-green" size={24} />,
       title: 'Experiencia',
-      description: '3+ años en análisis de datos'
+      description: '+1 años en análisis de datos'
     },
     {
       icon: <Target className="text-data-green" size={24} />,
@@ -64,7 +58,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6 gradient-text">Mi Historia</h3>
             <div className="space-y-4 text-gray-300">
               <p>
-                Soy un analista de datos apasionado con más de 3 años de experiencia en el campo del análisis de datos 
+                Soy un estudiante en su ultimo ciclo de la carrera de analista de datos apasionado con 1 año de experiencia en el campo del análisis de datos 
                 y Business Intelligence. Mi enfoque se centra en transformar datos complejos en insights accionables 
                 que impulsan la toma de decisiones estratégicas.
               </p>

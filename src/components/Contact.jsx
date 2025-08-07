@@ -64,13 +64,13 @@ const Contact = () => {
     {
       icon: <Phone className="text-data-green" size={24} />,
       title: 'Teléfono',
-      value: '+54 9 11 1234-5678',
-      link: 'tel:+5491112345678'
+      value: '+51 956-224-010',
+      link: 'tel:+51956224010'
     },
     {
       icon: <MapPin className="text-data-green" size={24} />,
       title: 'Ubicación',
-      value: 'Buenos Aires, Argentina',
+      value: 'Lima, Perú',
       link: '#'
     }
   ]
@@ -79,13 +79,13 @@ const Contact = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="text-data-green" size={20} />,
-      url: 'https://linkedin.com/in/elias-datos',
+      url: 'https://www.linkedin.com/in/elias-carmin/',
       color: 'hover:bg-blue-600'
     },
     {
       name: 'GitHub',
       icon: <Github className="text-data-green" size={20} />,
-      url: 'https://github.com/elias-datos',
+      url: 'https://github.com/EliasCarmin',
       color: 'hover:bg-gray-700'
     },
     {

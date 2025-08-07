@@ -154,28 +154,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Section */}
-        <div className="bg-data-light p-6 rounded-lg glow-border mb-8">
-          <div className="text-center">
-            <h3 className="text-xl font-bold mb-2 gradient-text">
-              ¡Mantente Actualizado!
-            </h3>
-            <p className="text-gray-400 mb-4">
-              Suscríbete a mi newsletter para recibir las últimas noticias sobre análisis de datos y BI.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Tu email"
-                className="flex-1 px-4 py-2 bg-data-dark border border-gray-600 rounded-lg focus:border-data-green focus:outline-none text-white placeholder-gray-400"
-              />
-              <button className="bg-data-green text-data-dark px-6 py-2 rounded-lg hover:bg-neon-green transition-colors font-medium">
-                Suscribirse
-              </button>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">

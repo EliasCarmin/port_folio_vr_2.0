@@ -9,7 +9,9 @@ import {
   Zap,
   Shield,
   Globe,
-  TrendingUp
+  TrendingUp,
+  Laptop,
+  Smartphone
 } from 'lucide-react'
 
 const Skills = () => {
@@ -19,7 +21,6 @@ const Skills = () => {
       icon: <BarChart3 className="text-data-green" size={32} />,
       skills: [
         { name: 'Power BI', level: 95, icon: '📊' },
-        { name: 'Tableau', level: 90, icon: '📈' },
         { name: 'Excel Avanzado', level: 95, icon: '📋' },
         { name: 'Google Analytics', level: 85, icon: '📊' }
       ]
@@ -28,18 +29,17 @@ const Skills = () => {
       title: 'Programación',
       icon: <Code className="text-data-green" size={32} />,
       skills: [
-        { name: 'Python', level: 90, icon: '🐍' },
+        { name: 'Python', level: 95, icon: '🐍' },
         { name: 'SQL', level: 95, icon: '🗄️' },
-        { name: 'R', level: 80, icon: '📊' },
         { name: 'VBA', level: 85, icon: '💻' }
       ]
     },
     {
-      title: 'Machine Learning',
+      title: 'Librerías Python',
       icon: <Cpu className="text-data-green" size={32} />,
       skills: [
-        { name: 'Scikit-learn', level: 85, icon: '🤖' },
-        { name: 'TensorFlow', level: 75, icon: '🧠' },
+        //{ name: 'Scikit-learn', level: 85, icon: '🤖' },
+        //{ name: 'TensorFlow', level: 75, icon: '🧠' },
         { name: 'Pandas', level: 90, icon: '🐼' },
         { name: 'NumPy', level: 85, icon: '🔢' }
       ]
@@ -48,18 +48,19 @@ const Skills = () => {
       title: 'Bases de Datos',
       icon: <Database className="text-data-green" size={32} />,
       skills: [
-        { name: 'MySQL', level: 90, icon: '🐬' },
-        { name: 'PostgreSQL', level: 85, icon: '🐘' },
-        { name: 'MongoDB', level: 75, icon: '🍃' },
-        { name: 'SQL Server', level: 80, icon: '🗄️' }
+        { name: 'MySQL', level: 95, icon: '🐬' },
+        { name: 'PostgreSQL', level: 70, icon: '🐘' },
+        { name: 'BigQuery', level: 85, icon: '🔍' }
       ]
     },
     {
       title: 'Cloud & DevOps',
       icon: <Cloud className="text-data-green" size={32} />,
       skills: [
-        { name: 'AWS', level: 75, icon: '☁️' },
-        { name: 'Azure', level: 80, icon: '🔷' },
+        { name: 'GCP', level: 75, icon: '☁️' },
+        { name: 'BigQuery', level: 85, icon: '🔍' },
+        { name: 'Cloud Run Functions', level: 70, icon: '⚡' },
+        { name: 'Cloud Storage', level: 80, icon: '📦' },
         { name: 'Docker', level: 70, icon: '🐳' },
         { name: 'Git', level: 85, icon: '📝' }
       ]
@@ -68,10 +69,24 @@ const Skills = () => {
       title: 'Herramientas BI',
       icon: <TrendingUp className="text-data-green" size={32} />,
       skills: [
-        { name: 'QlikView', level: 80, icon: '📊' },
-        { name: 'Looker', level: 75, icon: '👁️' },
-        { name: 'SAP BusinessObjects', level: 70, icon: '🏢' },
+        { name: 'Looker Studio', level: 75, icon: '👁️' },
         { name: 'Alteryx', level: 75, icon: '🔄' }
+      ]
+    },
+    {
+      title: 'Entornos de Desarrollo',
+      icon: <Laptop className="text-data-green" size={32} />,
+      skills: [
+        { name: 'Google Colab', level: 90, icon: '📓' },
+        { name: 'Jupyter Notebook', level: 85, icon: '📔' },
+        { name: 'Cursor IA', level: 80, icon: '🤖' }
+      ]
+    },
+    {
+      title: 'Herramientas No-Code',
+      icon: <Smartphone className="text-data-green" size={32} />,
+      skills: [
+        { name: 'Appsheet', level: 85, icon: '📱' }
       ]
     }
   ]
