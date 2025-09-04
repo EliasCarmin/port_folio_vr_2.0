@@ -42,18 +42,6 @@ const Projects = () => {
       stats: { sessions: '1M+', engagement: '+40%', bounce: '-20%' }
     },
     {
-      id: 4,
-      title: 'Sistema de Costeo Automatizado',
-      category: 'automation',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop',
-      description: 'Automatización del proceso de costeo empresarial con integración de múltiples fuentes de datos.',
-      technologies: ['VBA', 'Excel', 'SQL Server', 'Power Query'],
-      features: ['Automatización completa', 'Integración de datos', 'Reportes dinámicos', 'Alertas automáticas'],
-      link: '#',
-      github: '#',
-      stats: { time: '-80%', accuracy: '99.9%', processes: '50+' }
-    },
-    {
       id: 5,
       title: 'Predicción de Demanda con ML',
       category: 'machine-learning',

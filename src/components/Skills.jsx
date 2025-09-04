@@ -22,7 +22,8 @@ const Skills = () => {
       skills: [
         { name: 'Power BI', level: 95, icon: '📊' },
         { name: 'Excel Avanzado', level: 95, icon: '📋' },
-        { name: 'Google Analytics', level: 85, icon: '📊' }
+        { name: 'Looker Studio', level: 75, icon: '📊' },
+        { name: 'Alteryx', level: 75, icon: '🔄' }
       ]
     },
     {
@@ -63,14 +64,6 @@ const Skills = () => {
         { name: 'Cloud Storage', level: 80, icon: '📦' },
         { name: 'Docker', level: 70, icon: '🐳' },
         { name: 'Git', level: 85, icon: '📝' }
-      ]
-    },
-    {
-      title: 'Herramientas BI',
-      icon: <TrendingUp className="text-data-green" size={32} />,
-      skills: [
-        { name: 'Looker Studio', level: 75, icon: '👁️' },
-        { name: 'Alteryx', level: 75, icon: '🔄' }
       ]
     },
     {
