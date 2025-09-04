@@ -90,7 +90,7 @@ const Skills = () => {
     { name: 'Statistical Analysis', icon: <BarChart3 className="text-data-green" size={20} /> },
     { name: 'Data Visualization', icon: <Globe className="text-data-green" size={20} /> },
     { name: 'API Integration', icon: <GitBranch className="text-data-green" size={20} /> },
-    { name: 'Data Security', icon: <Shield className="text-data-green" size={20} /> }
+    { name: 'Process Automation', icon: <Shield className="text-data-green" size={20} /> }
   ]
 
   return (
@@ -168,9 +168,9 @@ const Skills = () => {
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { name: 'Microsoft Power BI', level: 'Data Analyst' },
-              { name: 'Tableau Desktop', level: 'Specialist' },
+              { name: 'PostgresSQL', level: 'Databases' },
               { name: 'Google Data Analytics', level: 'Professional' },
-              { name: 'AWS Cloud Practitioner', level: 'Foundational' }
+              { name: 'GCP Cloud Associate', level: 'Foundational' }
             ].map((cert, index) => (
               <div 
                 key={index}

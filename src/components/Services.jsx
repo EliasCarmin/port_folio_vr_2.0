@@ -26,7 +26,7 @@ const Services = () => {
         'Análisis de KPIs en tiempo real',
         'Capacitación en el uso de herramientas'
       ],
-      price: 'Desde $500',
+      price: 'Desde S/100',
       duration: '2-4 semanas'
     },
     {
@@ -41,7 +41,7 @@ const Services = () => {
         'Análisis de comportamiento de usuarios',
         'Reportes ejecutivos con insights accionables'
       ],
-      price: 'Desde $800',
+      price: 'Desde S/120',
       duration: '3-6 semanas'
     },
     {
@@ -56,7 +56,7 @@ const Services = () => {
         'Análisis de sentimientos',
         'Implementación y mantenimiento de modelos'
       ],
-      price: 'Desde $1200',
+      price: 'Desde S/ 250',
       duration: '4-8 semanas'
     },
     {
@@ -71,7 +71,7 @@ const Services = () => {
         'Alertas y notificaciones automáticas',
         'Documentación y capacitación del equipo'
       ],
-      price: 'Desde $600',
+      price: 'Desde S/300',
       duration: '2-5 semanas'
     },
     {
@@ -86,7 +86,7 @@ const Services = () => {
         'Capacitación de equipos',
         'Soporte post-implementación'
       ],
-      price: 'Desde $1000',
+      price: 'Desde S/200',
       duration: 'Variable'
     },
     {
@@ -101,7 +101,7 @@ const Services = () => {
         'Reportes de rendimiento mensuales',
         'Recomendaciones de mejora continua'
       ],
-      price: 'Desde $700',
+      price: 'Desde S/150',
       duration: '3-5 semanas'
     }
   ]
