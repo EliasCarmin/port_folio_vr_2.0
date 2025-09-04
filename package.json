@@ -2,6 +2,7 @@
   "name": "port_folio_vr_2.0",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://eliascarmin.github.io/port_folio_vr_2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
